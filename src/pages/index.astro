@@ -1,12 +1,12 @@
 ---
+import Footer from "../components/Footer.astro";
+import Navigation from "../components/Navigation.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">blog</a>
+    <Navigation />
 
     <h1>Welcome to <span class="text-gradient">Astro</span></h1>
     <p class="instructions">
@@ -15,6 +15,8 @@ import Layout from "../layouts/Layout.astro";
       <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
       above.
     </p>
+
+	<Footer />
   </main>
 </Layout>
 
