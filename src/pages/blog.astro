@@ -1,6 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -16,6 +17,9 @@ import Layout from "../layouts/Layout.astro";
     </ul>
 
     <Footer />
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </main>
 </Layout>
 
